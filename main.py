@@ -99,7 +99,7 @@ class HotelAPI:
 # Асинхронная функция для выполнения запросов к API
 async def main():
     # Инициализация API-клиента
-    api = HotelAPI(base_url="http://192.168.0.50:8181/hotel-test/api", api_key="eAqYAR9dveWUwSYJ2yfWX6E3DhCkYTumoS+oxCPD02g=")
+    api = HotelAPI(base_url="http://192.168.0.50:8181/hotel/hs/api", api_key="")
 
     # Получение информации о наличии номеров
     availability = await api.get_room_availability()
